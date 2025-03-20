@@ -1,5 +1,9 @@
+body{
+    background-color: #b6aeff;
+    font-family: Arial, sans-serif;
+}
 .parent{
-    border: 2px solid blue;
+    border: 2px solid black;
     grid-template-columns: repeat(4, 1fr);
     display: grid;
 }
