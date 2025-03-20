@@ -1,0 +1,14 @@
+.parent{
+    border: 2px solid blue;
+    display: flex;
+}
+.child{
+    border: 2px solid red;
+    flex-grow: 1;
+    text-align: center;
+}
+@media (max-width: 500px){
+    .parent{
+        flex-direction: column;
+    }
+}
